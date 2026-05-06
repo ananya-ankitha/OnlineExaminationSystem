@@ -260,5 +260,5 @@ Password : admin123
 - **Pattern:** MVC (Model-View-Controller)
 - **Database:** MySQL
 - **Server:** Apache Tomcat 10.1
-- 
-Thank you....
+
+THANK YOU
