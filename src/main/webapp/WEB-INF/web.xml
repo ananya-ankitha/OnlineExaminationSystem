@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
+         version="6.0">
+
+  <display-name>Online Examination System</display-name>
+
+  <welcome-file-list>
+    <welcome-file>login.jsp</welcome-file>
+  </welcome-file-list>
+
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.myapp.servlets.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>com.myapp.servlets.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/RegisterServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>AdminServlet</servlet-name>
+    <servlet-class>com.myapp.servlets.AdminServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  
+    <servlet-name>AdminServlet</servlet-name>
+    <url-pattern>/AdminServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>QuestionServlet</servlet-name>
+    <servlet-class>com.myapp.servlets.QuestionServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>QuestionServlet</servlet-name>
+    <url-pattern>/QuestionServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>LogoutServlet</servlet-name>
+    <servlet-class>com.myapp.servlets.LogoutServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LogoutServlet</servlet-name>
+    <url-pattern>/LogoutServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>LoadExamsServlet</servlet-name>
+    <servlet-class>com.myapp.servlets.LoadExamsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoadExamsServlet</servlet-name>
+    <url-pattern>/LoadExamsServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>LoadQuestionsServlet</servlet-name>
+    <servlet-class>com.myapp.servlets.LoadQuestionsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoadQuestionsServlet</servlet-name>
+    <url-pattern>/LoadQuestionsServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>SubmitExamServlet</servlet-name>
+    <servlet-class>com.myapp.servlets.SubmitExamServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SubmitExamServlet</servlet-name>
+    <url-pattern>/SubmitExamServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>AdminScoresServlet</servlet-name>
+    <servlet-class>com.myapp.servlets.AdminScoresServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminScoresServlet</servlet-name>
+    <url-pattern>/AdminScoresServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ViewScoresServlet</servlet-name>
+    <servlet-class>com.myapp.servlets.ViewScoresServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ViewScoresServlet</servlet-name>
+    <url-pattern>/ViewScoresServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>LeaderboardServlet</servlet-name>
+    <servlet-class>com.myapp.servlets.LeaderboardServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>LeaderboardServlet</servlet-name>
+    <url-pattern>/LeaderboardServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>AttendanceServlet</servlet-name>
+    <servlet-class>com.myapp.servlets.AttendanceServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AttendanceServlet</servlet-name>
+    <url-pattern>/AttendanceServlet</url-pattern>
+  </servlet-mapping>
+<servlet>
+    <servlet-name>ChangePasswordServlet</servlet-name>
+    <servlet-class>com.myapp.servlets.ChangePasswordServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>ChangePasswordServlet</servlet-name>
+    <url-pattern>/ChangePasswordServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>ProfileServlet</servlet-name>
+    <servlet-class>com.myapp.servlets.ProfileServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>ProfileServlet</servlet-name>
+    <url-pattern>/ProfileServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>StudentListServlet</servlet-name>
+    <servlet-class>com.myapp.servlets.StudentListServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>StudentListServlet</servlet-name>
+    <url-pattern>/StudentListServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>ManageStudentsServlet</servlet-name>
+    <servlet-class>com.myapp.servlets.ManageStudentsServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>ManageStudentsServlet</servlet-name>
+    <url-pattern>/ManageStudentsServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>AdminReportsServlet</servlet-name>
+    <servlet-class>com.myapp.servlets.AdminReportsServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>AdminReportsServlet</servlet-name>
+    <url-pattern>/AdminReportsServlet</url-pattern>
+</servlet-mapping>
+</web-app>
